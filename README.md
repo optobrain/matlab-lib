@@ -4,8 +4,7 @@ Shared MATLAB functions
 In our server, run G:/GitHubDesktop.exe and clone this to your local github drive using either URL or GitHub.com. <br>
 Here is an example folder structure:
 * ../Documents/GitHub/matlab-lib
-* ../Documents/GitHub/cvi-19-3d
-* ../Documents/GitHub/ad-19-pharma
+* ../Documents/GitHub/(*your working repo*)
 
 ## When you got an error
 Make an issue. The situation and screenshot would help.
