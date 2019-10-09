@@ -2,7 +2,7 @@
 % btick : xtick?
 % limC
 % brel : limC is relative MeanLow/High?
-% dar  : data aspect ratio [px py pz]
+% dar  : data aspect ratio [px py pz] : when the number is higher, the scale of that axis is shrinked. Thus, px should be the inverse of the sampling interval.
 % alp  : alpha data
 
 % ret  : resultant limC
@@ -39,7 +39,8 @@ function ret = PlotImage(img, btick, limC, brel, dar, alp)
     
     if nargin >= 5
         if numel(dar) == 3
-            set(gca,'DataAspectRatio',dar);
+%             set(gca,'DataAspectRatio',dar);
+            daspect(dar);
         end
     end
 	
